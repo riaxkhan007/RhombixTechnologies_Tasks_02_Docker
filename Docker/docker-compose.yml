@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  demo-app:
+    image: riaxkhan007/demo-app:1.0
+    container_name: demo-app
+    ports:
+      - "3000:3000"
